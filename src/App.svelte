@@ -14,7 +14,7 @@
             Math.floor(Math.random() * selectedOption.options.length)
           ];
       }
-    }, 2000);
+    }, 1000);
   };
 </script>
 
