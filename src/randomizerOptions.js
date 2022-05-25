@@ -76,4 +76,7 @@ export const RANDOMIZER_OPTIONS = [
       "Find Something Fun To Do (Online)",
     ],
   },
+  {
+    displayText: "What's Cookin'? (WIP)",
+  },
 ];
