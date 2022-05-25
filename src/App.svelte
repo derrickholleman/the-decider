@@ -2,14 +2,19 @@
   import { RANDOMIZER_OPTIONS } from "./randomizerOptions";
   let selectedOption;
   let selectedRandomOption;
+  let loading = false;
 
   const handleRandomize = () => {
-    if (selectedOption) {
-      selectedRandomOption =
-        selectedOption.options[
-          Math.floor(Math.random() * selectedOption.options.length)
-        ];
-    }
+    loading = true;
+    setTimeout(() => {
+      loading = false;
+      if (selectedOption) {
+        selectedRandomOption =
+          selectedOption.options[
+            Math.floor(Math.random() * selectedOption.options.length)
+          ];
+      }
+    }, 2000);
   };
 </script>
 
@@ -21,7 +26,10 @@
   <h1>The Decider</h1>
   <select
     bind:value={selectedOption}
-    on:change={() => (selectedRandomOption = "")}
+    on:change={() => {
+      loading = false;
+      selectedRandomOption = "";
+    }}
   >
     <option value="">-- Choose an Option --</option>
     {#each RANDOMIZER_OPTIONS as randomOption}
@@ -36,8 +44,11 @@
   </button>
 
   <div class="selected-option">
-    {#if selectedRandomOption}
+    {#if selectedRandomOption && !loading}
       {selectedRandomOption}
+    {/if}
+    {#if loading === true}
+      <p>Randomizing...</p>
     {/if}
   </div>
 </div>
