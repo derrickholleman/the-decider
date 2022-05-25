@@ -39,7 +39,7 @@
     {/each}
   </select>
 
-  <button on:click={handleRandomize} disabled={!selectedOption}>
+  <button on:click={handleRandomize} disabled={!selectedOption || loading}>
     Randomize!
   </button>
 
