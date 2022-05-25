@@ -23,7 +23,7 @@
     bind:value={selectedOption}
     on:change={() => (selectedRandomOption = "")}
   >
-    <option>-- Choose an Option --</option>
+    <option value="">-- Choose an Option --</option>
     {#each RANDOMIZER_OPTIONS as randomOption}
       <option value={randomOption}>
         {randomOption.displayText}
@@ -31,7 +31,9 @@
     {/each}
   </select>
 
-  <button on:click={handleRandomize}> Randomize! </button>
+  <button on:click={handleRandomize} disabled={!selectedOption}>
+    Randomize!
+  </button>
 
   <div class="selected-option">
     {#if selectedRandomOption}
@@ -57,6 +59,9 @@
     border-color: #709255;
     border-radius: 5px;
     font-weight: bold;
+  }
+  button:disabled {
+    pointer-events: none;
   }
   button:active {
     transform: scale(0.98);
