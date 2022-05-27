@@ -53,6 +53,7 @@ export const RANDOMIZER_OPTIONS = [
       "Biaggis",
       "PF Changs",
       "Buona Sera",
+      "Osaka",
     ],
   },
   {
