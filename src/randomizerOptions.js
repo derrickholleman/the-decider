@@ -84,6 +84,7 @@ export const RANDOMIZER_OPTIONS = [
       "History Museum",
       "Find Something Fun To Do (Online)",
       "Rent out Apartment Theater",
+      "Casino",
     ],
   },
   {
