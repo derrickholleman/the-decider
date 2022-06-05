@@ -85,6 +85,9 @@ export const RANDOMIZER_OPTIONS = [
       "Find Something Fun To Do (Online)",
       "Rent out Apartment Theater",
       "Casino",
+      "Minnesota Zoo",
+      "Como Zoo",
+      "Can Can Wonderland",
     ],
   },
   {
@@ -120,6 +123,8 @@ export const RANDOMIZER_OPTIONS = [
       "Shrimp",
       "Spinach and Sausage Stuffed Shells",
       "Taquitos",
+      "Chicken Wings",
+      "Nachos",
     ],
   },
 ];
