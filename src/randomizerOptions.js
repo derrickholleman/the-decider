@@ -88,6 +88,8 @@ export const RANDOMIZER_OPTIONS = [
       "Minnesota Zoo",
       "Como Zoo",
       "Can Can Wonderland",
+      "Bunkers Live Music",
+      "Dave & Busters"
     ],
   },
   {
