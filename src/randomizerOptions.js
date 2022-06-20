@@ -89,7 +89,7 @@ export const RANDOMIZER_OPTIONS = [
       "Como Zoo",
       "Can Can Wonderland",
       "Bunkers Live Music",
-      "Dave & Busters"
+      "Dave & Busters",
     ],
   },
   {
