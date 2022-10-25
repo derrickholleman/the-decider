@@ -51,6 +51,7 @@ export const RANDOMIZER_OPTIONS = [
       "China Hope",
       "Noodles & Company",
       "The Wienery",
+      "The Depot",
     ],
   },
   {
@@ -66,6 +67,21 @@ export const RANDOMIZER_OPTIONS = [
       "PF Changs",
       "Buona Sera",
       "Osaka",
+      "Fogo De Chao",
+      "Bungalow Cafe",
+    ],
+  },
+  {
+    displayText: "Brunch",
+    options: [
+      "Nolos",
+      "Nolos",
+      "Hope Breakfast Bar",
+      "Crave",
+      "Keys Cafe",
+      "Hen House Eatery",
+      "Black Cofee & Waffle Bar",
+      "Hi-Lo Diner",
     ],
   },
   {
@@ -86,7 +102,7 @@ export const RANDOMIZER_OPTIONS = [
       "Night Drive",
       "Night Drive",
       "History Museum",
-      "Find Something Fun To Do (Online)",
+      "EventBrite",
       "Rent out Apartment Theater",
       "Casino",
       "Minnesota Zoo",
