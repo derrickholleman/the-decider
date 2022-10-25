@@ -50,6 +50,7 @@ export const RANDOMIZER_OPTIONS = [
       "Hudys Cafe",
       "China Hope",
       "Noodles & Company",
+      "The Wienery",
     ],
   },
   {
