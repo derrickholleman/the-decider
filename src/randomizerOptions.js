@@ -80,8 +80,12 @@ export const RANDOMIZER_OPTIONS = [
       "Crave",
       "Keys Cafe",
       "Hen House Eatery",
-      "Black Cofee & Waffle Bar",
+      "Black Coffee & Waffle Bar",
       "Hi-Lo Diner",
+      "French Meadows",
+      "Hudys Cafe",
+      "Eggys Diner",
+      "Patisserie 46",
     ],
   },
   {
