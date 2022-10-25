@@ -87,6 +87,4 @@
     color: #08415c;
     font-weight: 600;
   }
-
-  /* #08415c */
 </style>
